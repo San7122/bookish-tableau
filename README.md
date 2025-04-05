@@ -1,36 +1,58 @@
-# bookish-tableau
-Airbnb Insights Data Visualization (Tableau)
-We are analyzing Airbnb dataset of Chicago and New Orleans to draw interesting insights and address some questions.
+# Airbnb Listings Analysis | Tableau Dashboard
 
-Questions Addressed ?
+![Airbnb Logo](https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg)
 
-Which are the popular neighborhoods, their average prices and no. of listings.
-What are percent share of different property type and room type.
-How the pricing is varying with location, property type, reviews.
-What are the different correlations between type of hosts and factors like- reviews & price
+---
 
-Why Airbnb ?
+## 📘 Project Overview
 
-Airbnb is a leading website where people can book beds, rooms, apartments, homes etc. all around the world. It provides a platform for the people to rent out their places at their convenience without involving complex channels or doing major investments. Users can also find a place to stay at much competitive prices as compared to hotels. Through Airbnb, people can find place to stay even in the areas where the likelihood of having hotels is very less. Many a times, even people prefer to stay in local settings, with local people.
+This project explores Airbnb listings in **Chicago** and **New Orleans**, uncovering trends in property types, host behavior, pricing, and neighborhood popularity.
 
-Airbnb Statistics • Over 4 million listings worldwide • 150 million users in 191 countries • Worldwide value is $32 billion • Global growth rate since 2009 - 153% • Estimated revenue by 2020 - $8.5 billion
+The analysis uses:
+- **Excel** for dataset merging and cleanup  
+- **Python (Pandas)** for data wrangling  
+- **Tableau** for building interactive dashboards
 
-Data Cleaning
+> 🔗 **Full Insight Report (PDF)**  
+> [Click here to view the complete Dashboard Report](./Insight%20report.pdf)
 
-Initially, Data was very messy and uncleaned, so we used external tools to make it ready for the Visualization. Data cleaning has been done using Jupyter Notebook and Tableau Prep. Finally, the cleaned datasets of both the cities are merged in Jupyter Notebook to get the ‘Final Dataset’ which has been used for doing the visualizations.
+---
 
-Visualization Tool
+## 🛠 Tools Used
 
-Tableau has been used as the Data Visualization tool as it is a very powerful, secure and flexible end to end analytics platform where we can visualize our data quickly and easily by creating interactive dashboards and convey an overall story using storyboard. Tableau is been used predominantly in the industry for creating powerful visualizations.
+| Tool        | Purpose                         |
+|-------------|----------------------------------|
+| **Excel**       | Dataset merging and null value cleanup |
+| **Pandas**      | Data wrangling & transformation |
+| **Tableau**     | Dashboard creation & visualization |
 
-Target Audience The insights drawn could be helpful for both Hosts and Users. Hosts- People putting up their place for rental purpose. Users- People searching for accommodation.
+---
 
-Our storyboard has been categorized into four categories-
+## 🔍 Key Insights
 
-1.Overview of Airbnb
+- **Listings:** Over 49,000 across both cities  
+- **Entire homes** are the most listed property type  
+- **Superhosts** tend to charge more, but maintain higher ratings  
+- **Chicago** shows more premium listings compared to **New Orleans**
 
-2.Property analysis
+---
 
-3.Pricing analysis
+## 📈 Dashboard Sections (Preview in PDF)
 
-4.Host analysis
+- ✅ **Overview of Listings** – map, distribution & room type  
+- 🏘️ **Property Analysis** – popular neighborhoods  
+- 💰 **Pricing Trends** – impact of reviews on pricing  
+- 👤 **Host Behavior** – correlation with ratings & price
+
+---
+
+## 📬 Contact
+
+- 📧 **Email:** sanjanathakur302@gmail.com  
+- 🔗 [LinkedIn](https://linkedin.com/in/sanjana-thakur-b35459246)  
+- 🔗 [GitHub Portfolio](https://github.com/San7122)
+
+---
+
+⭐ *If you liked this project, please give the repo a star!*
+
